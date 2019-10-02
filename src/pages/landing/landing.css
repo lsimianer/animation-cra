@@ -45,7 +45,6 @@ body {
 }
 
 .letterCont {
-  margin-top: 1%;
   text-align: center;
   width: 100%;
 }
@@ -55,7 +54,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 6.5rem;
+  font-size: 6rem;
   font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
   /* letter-spacing: 1rem; */
