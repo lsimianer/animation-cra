@@ -19,6 +19,10 @@
     "predeploy": "npm run build",
     "deploy": " -b master -d build"
   },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=6.0.0"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
