@@ -27,21 +27,28 @@ body {
 
 .glass {
   margin: 0 auto;
-  height: 100px;
-  width: 75vw;
-  padding-left: 3vw;
-  padding-right: 2vw;
-  box-shadow: 0px 0px 20px 11px rgba(255, 255, 255, 0.287);
-  background-color: rgba(255, 255, 255, 0.287);
+  height: 10vh;
+  width: 105vw;
+
+  border-style: groove;
+  border-width: 4px;
+  border-color: #444444;
+
+  /* box-shadow: 0px 0px 20px 11px rgba(96, 221, 243, 0.123); */
+  background-color: rgba(8, 8, 8, 0.719);
   /* background-color: black; */
   border-radius: 25px;
-  display:flex; 
+  display: flex;
   justify-content: center;
   text-align: justify;
   letter-spacing: normal;
-
 }
 
+.letterCont {
+  margin-top: 1%;
+  text-align: center;
+  width: 100%;
+}
 
 .fancy {
   background-image: url(./teal.png);
@@ -60,49 +67,60 @@ body {
   letter-spacing: 25px;
   /* animation-iteration-count: 2,0, infinite; */
   -webkit-text-stroke-width: 2px;
-   -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: black;
 
 }
 
-.footer{
- width: 100%;
- height: 25%;
- background-color: transparent;
- bottom: 20%;
- }
-#logo1{
-height: 25%;
-width: 25%;
-margin-top: 15px;
-margin-right: 55%;
+.footer {
+  width: 100%;
+  height: 25%;
+  background-color: transparent;
+  bottom: 20%;
 }
 
-.linky{
+#logo1 {
+  height: 25%;
+  width: 25%;
+  margin-left: 36%;
+  margin-bottom: 5%;
+}
+
+.linky {
+  margin-top: 5%;
   display: flex;
   justify-content: center;
   background-image: url(./teal.png);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 2.5rem; 
+  font-size: 3.25rem;
   animation: animatedBackground 12s linear infinite;
+  font-family: 'Orbitron', sans-serif;
+
 }
-.foot{
-display: flex;
-justify-content:left;
+
+
+.linky:hover {
+  font-size: 3.5rem;
+}
+
+.foot {
+  display: flex;
+  justify-content: left;
 }
 
 
 @keyframes fadeIn {
   0% {
-    visibility:  0;
+    visibility: 0;
     filter: blur(20px);
   }
-  
+
   50% {
     opacity: 100;
     filter: blur(0px);
   }
+
   100% {
     opacity: 0;
     filter: blur(15px);
@@ -118,6 +136,7 @@ justify-content:left;
     background-position: 100% 0;
   }
 }
+
 /* 
 @keyframes scrollGood {
   0% {

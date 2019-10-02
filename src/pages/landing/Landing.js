@@ -16,7 +16,8 @@ class Landing extends Component {
         }
         // this.heading = "CLUTCH ANALYTICS".split("")
         // this.names = ['Luke Simianer', 'Landon Roberts','Guillermo blanco-bro', 'Gregg Moore'];
-        this.names = ['Luke Simianer', 'Landon Roberts', 'Guillermo Blanco', 'Gregg Moore']
+        this.names = ['clutch analytics','Luke Simianer', 'Landon Roberts', 'Guillermo Blanco', 'Gregg Moore','Arin Stephen','doris chiu', 'carla clay', 'leslie clays', 'jon deanda', 'nick fidanza', 'jorge garcia', 'michael glover', 'zee hussain', 'david iitzjy', 'erdal kulgu', 'david mallon', 'collin massey', ' juan moreno', 'casey moroney', 'nilda morales', 'russel mystick', 'stewart nickolas', 'bhumi patel', 'roman penn', 'tim primmer', 
+    'sean quillen', 'samantha rodriguez', 'russ ryan', 'sundew shin', 'court spooner', 'tony suriyathep', 'noah tinney', 'elisa tron', 'kamran varahramyan', 'jonKamren wilson', 'gerard talamantes' ]
         this.delays = [...Array(20)].map(val => {
             let delay = Math.floor((Math.random() * 1000));
             return delay;
@@ -45,7 +46,11 @@ render() {
     return(
         <div>
             <div className='container'>
+            <div className='foot'>
+                <footer className='footer'><img  id="logo1" src={logo1} alt=""/> </footer> 
+            </div>
                 <div className="glass">
+                    <div className='letterCont'>
                     {
                         this.names[this.state.idx].split('').map((val, i)=> {
                             // let delay = Math.floor((Math.random() * 1000));
@@ -53,11 +58,12 @@ render() {
                             return (<span key={i} className='fancy' style={{animation: `fadeIn 4000ms ${this.delays[i]}ms infinite, animatedBackground 10s linear infinite`}}>{val}</span>)
                         })
                     }
+                    </div>
                 </div> 
             </div>
-            <div className='foot'>
+            {/* <div className='foot'>
                 <footer className='footer'><img  id="logo1" src={logo1} alt=""/> </footer> 
-            </div>
+            </div> */}
 
                 <Link className='linky' to='Page1'> Learn how we build cool shit</Link>
         </div>  
