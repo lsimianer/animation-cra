@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/animation-cra/static/css/main.6cc5a204.chunk.css",
+    "main.js": "/animation-cra/static/js/main.c40cee7a.chunk.js",
+    "main.js.map": "/animation-cra/static/js/main.c40cee7a.chunk.js.map",
+    "runtime-main.js": "/animation-cra/static/js/runtime-main.3d103a0a.js",
+    "runtime-main.js.map": "/animation-cra/static/js/runtime-main.3d103a0a.js.map",
+    "static/js/2.f77ddabe.chunk.js": "/animation-cra/static/js/2.f77ddabe.chunk.js",
+    "static/js/2.f77ddabe.chunk.js.map": "/animation-cra/static/js/2.f77ddabe.chunk.js.map",
+    "index.html": "/animation-cra/index.html",
+    "precache-manifest.8c29d3fb152412225e2512cc0ed2a576.js": "/animation-cra/precache-manifest.8c29d3fb152412225e2512cc0ed2a576.js",
+    "service-worker.js": "/animation-cra/service-worker.js",
+    "static/css/main.6cc5a204.chunk.css.map": "/animation-cra/static/css/main.6cc5a204.chunk.css.map",
+    "static/media/landing.css": "/animation-cra/static/media/teal.ad33d899.png",
+    "static/media/page1.css": "/animation-cra/static/media/carbon.40745346.jpg",
+    "static/media/logoClutch.png": "/animation-cra/static/media/logoClutch.a3890458.png"
+  }
+}
