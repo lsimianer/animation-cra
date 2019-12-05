@@ -6,6 +6,8 @@ import {
 } from 'react-router-dom';
 import Landing from "./pages/landing/Landing";
 import Page1 from "./pages/book/page1";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 // import "./pages/landing/landing.scss"
 

@@ -47,3 +47,9 @@ ol{
       background-position: 100% 0;
     }
   }
+  #containerMain{
+      height: 75vh;
+      width: 100vw;
+      background-color: black;
+      margin-bottom: 3%;
+  }

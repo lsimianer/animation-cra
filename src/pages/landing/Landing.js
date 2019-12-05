@@ -16,8 +16,8 @@ class Landing extends Component {
         }
         // this.heading = "CLUTCH ANALYTICS".split("")
         // this.names = ['Luke Simianer', 'Landon Roberts','Guillermo blanco-bro', 'Gregg Moore'];
-        this.names = ['clutch analytics','Luke Simianer', 'Landon Roberts', 'Guillermo Blanco', 'Gregg Moore','Arin Stephen','doris chiu', 'carla clay', 'leslie clays', 'jon deanda', 'nick fidanza', 'jorge garcia', 'michael glover', 'zee hussain', 'david iitzjy', 'erdal kulgu', 'david mallon', 'collin massey', ' juan moreno', 'casey moroney', 'nilda morales', 'russell mystiek', 'stewart nickolas', 'bhumi patel', 'roman penn', 'tim primmer', 
-    'sean quillen', 'samantha rodriguez', 'russ ryan', 'sundew shin', 'court spooner', 'tony suriyathep', 'noah tinney', 'elisa tron', 'kamran varahramyan', 'jonKamren wilson', 'gerard talamantes' ]
+        this.names = ['clutch analytics','Luke Simianer', 'David Forero', 'Guillermo Blanco', 'Gregg Moore','Arin Stephen','doris chiu', 'carla clay', 'leslie clays', 'jon deanda', 'nick fidanza', 'jorge garcia', 'michael glover', 'zee hussain', 'david iitzjy', 'erdal kulgu', 'david mallon', 'collin massey', ' juan moreno', 'casey moroney', 'nilda morales', 'russell mystiek', 'stewart nickolas', 'bhumi patel', 'roman penn', 'tim primmer',
+    'sean quillen', 'samantha rodriguez', 'russ ryan', 'sundew shin', 'court spooner', 'noah tinney', 'elisa tron', 'kamran varahramyan', 'jonKamren wilson', 'gerard talamantes' ]
         this.delays = [...Array(20)].map(val => {
             let delay = Math.floor((Math.random() * 1000));
             return delay;
